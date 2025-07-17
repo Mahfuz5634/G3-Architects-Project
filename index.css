@@ -32,6 +32,7 @@
 }
 
 
+
 /* main-styles */
 .nav-items{
     list-style: none;
@@ -130,7 +131,7 @@ main > section{
     text-align: justify;
 }
 .div-box{
-    width: 500px;
+    width: 100%;
     height: 160px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.14);
     margin-top: 20px;
@@ -147,7 +148,7 @@ main > section{
     font-size: 1.15rem;
 }
 .fea-img{
-    width: 100%;
+    width: 600px;
     height: 970px;
 }
 .btn-2{
@@ -166,6 +167,54 @@ main > section{
     margin-top: -30px;
     font-size: 20px;
 }
+.some-facts{
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.facts-box{
+    display: flex;
+    justify-content: space-around;
+
+}
+.some-facts-heading{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.some-facts-description{
+    font-size: 1rem;
+    margin-top: -20px;
+    margin-bottom: 70px;
+}
+.fact-box-1{
+    height: 241px;
+    width: 241px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fact-box-1 h3{
+    font-size: 2.81rem;
+     font-weight: 700;
+     margin: -1px -2px;
+     margin-top: 10px;
+    
+
+}
+.fact-box-1 h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: -1px;
+
+}
+.fact-box-1 img{
+  margin-top: 30px;
+}
+
 
 
 
@@ -182,6 +231,10 @@ main > section{
     .btn-2{
          margin-top: 10px;
           margin-left: 10px;
+    }
+    .facts-box{
+        flex-direction: column;
+        gap: 20px;
     }
 
 }
