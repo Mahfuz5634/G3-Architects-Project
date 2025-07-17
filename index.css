@@ -148,7 +148,7 @@ main > section{
     font-size: 1.15rem;
 }
 .fea-img{
-    width: 600px;
+    width: 100%;
     height: 970px;
 }
 .btn-2{
@@ -235,6 +235,7 @@ main > section{
     .facts-box{
         flex-direction: column;
         gap: 20px;
+        margin-left: 70px;
     }
 
 }
